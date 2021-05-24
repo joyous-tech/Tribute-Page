@@ -1,0 +1,119 @@
+#header{
+    border-color: navy;
+    background-color: green;
+    padding: 5PX;
+    height: 60PX;
+    width: 800px;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    border-style: solid;
+    top: 20px;
+    z-index: 20;
+    position: relative;
+}
+#link{
+    border-color: orange;
+    padding: 5px;
+    width: 600px;
+    border-style: solid;
+    text-align: center;
+    color: black;
+    font-size: 28px;
+    top: 20px;
+    z-index: 20;
+    position: relative;
+    color: white;
+}
+body{
+    background-color: gray;
+    border-style: solid;
+    border-color:orange;
+    position: relative;
+    height: 900px;
+}
+*{
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+#nav{
+    border-color: red;
+    padding: 10px;
+    width: 500px;
+    border-style: solid;
+    float: left;
+    position: absolute;
+    top: 155px;
+    z-index: 20;
+    color: white;
+    font-size: 21px;
+    left: 15px;
+    background-color: dimgrey;
+}
+img{
+    width: 250px;
+    height: 250px;
+    
+    padding: 10px;
+}
+#header2{
+    width: 50%;
+    height: 150px;
+    float: left;
+    position: relative;
+    top: -10px;
+}
+
+#main{
+    width: 500px;
+    border-style: solid;
+    border-color: skyblue;
+    float: right;
+    height: 650px;
+    padding: 10px;
+    color: white;
+    top: 40px;
+    position: relative;
+    
+    background-color: dimgrey;
+    right: 15px;
+}
+#ol{
+    color: white;
+    position: relative;
+    
+    font-size: 30px;
+    float: right;
+    right: -450px;
+    bottom: -300px;
+}
+#about{
+    width: 200px;
+    float: right;
+    position: relative;
+    font-size: 25px;
+    bottom: -200;
+    
+    
+}
+#io{
+    width:1150PX ;
+    bottom: -700PX;
+    position: relative;
+    border-style: solid;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    border-color: navy;
+    background-color: rgb(22, 80, 22);
+    clear: initial;
+}
+
+#io span{display: block;
+    align-items: center; 
+}
+ul{
+    text-align: justify;
+}
